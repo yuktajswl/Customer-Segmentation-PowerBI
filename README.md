@@ -27,7 +27,7 @@ It helps businesses identify High-Value, Medium-Value, and Low-Value customers t
 - images/ → Dashboard screenshots
 
 ## Dashboard Preview
-![Dashboard Screenshot](images/dashboard.png)
+![Dashboard Screenshot](https://github.com/user-attachments/assets/ff590f9c-a453-42f4-9346-172d2d0c5aac)
 
 ## Key Insights
 - High-value customers contribute the majority of revenue.
