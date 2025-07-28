@@ -1,45 +1,29 @@
-# Customer Segmentation Dashboard – Power BI
+# Amazon Customer Segmentation & Insights Dashboard
 
-## Overview
-This project demonstrates Customer Segmentation Analysis using Power BI. The dashboard provides insights into customer demographics, purchasing behavior, and segmentation based on value.  
-It helps businesses identify High-Value, Medium-Value, and Low-Value customers to improve marketing and retention strategies.
+## Project Overview
+This project focuses on segmenting Amazon customers based on their purchasing behavior using clustering techniques. It also provides business insights through interactive visualizations in Power BI.
 
 ## Key Features
-- KPI Cards:
-  - Total Customers
-  - Total Revenue
-  - Average Purchase Amount
-- Customer Segmentation Chart:
-  - Distribution of customers by High, Medium, and Low value.
-- Regional Distribution:
-  - Pie chart showing customer count by region.
-- Interactive Filters:
-  - Filters for region, gender, and customer segment.
+- Data preprocessing and feature engineering on Amazon product review data.
+- Customer segmentation using KMeans clustering.
+- Visualization of customer segments and insights using Power BI.
+- Integration with SQLite for storing segmentation results.
+- Exported clustered data for dashboard reporting.
 
-## Tools & Technologies
-- Power BI for visualization
-- Sample Customer Dataset (CSV)
-- DAX Calculations for KPIs and segmentation
+## Technologies Used
+- Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)
+- SQLite (for storing segmentation results)
+- Power BI (for interactive dashboard creation)
+- Jupyter Notebook for data processing
 
-## Files in Repository
-- Customer_Segmentation.pbix → Power BI dashboard file
-- customer_data.csv → Dataset used
-- images/ → Dashboard screenshots
+## Project Workflow
+1. Load and clean Amazon review data.
+2. Perform feature engineering (e.g., annual income, spending score simulation).
+3. Apply KMeans clustering for customer segmentation.
+4. Save results to SQLite and export as CSV.
+5. Create an interactive Power BI dashboard to visualize insights.
 
-## Dashboard Preview
-![Dashboard Screenshot](https://github.com/user-attachments/assets/ff590f9c-a453-42f4-9346-172d2d0c5aac)
-
-## Key Insights
-- High-value customers contribute the majority of revenue.
-- Medium-value customers have potential for upselling.
-- Region-wise analysis helps identify key markets.
-
-## How to Use
-1. Download Customer_Segmentation.pbix from this repository.
-2. Open in Power BI Desktop (free version).
-3. Explore the dashboard and apply filters.
-
-## Future Improvements
-- Add Gender-based Revenue Analysis.
-- Include Purchase Trend over time.
-- Automate data refresh using a database connection.
+## How to Run
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/amazon-customer-segmentation-insights-dashboard.git
